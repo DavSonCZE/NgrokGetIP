@@ -5,6 +5,7 @@ COLOR 0B
 set cmd_curl=curl http://localhost:4040/api/tunnels
 set cmd_pid=tasklist /FI "imagename eq ngrok.exe"
 set cmd_del_file0=del /f output.txt"
+set cmd_copy=COPY "C:\Program Files\Ngrok\output\output.txt" "H:\XAMPP\htdocs\davson\publicip.html"
 
 ECHO  Ngrok - GetIPFromAPP
 ECHO ======================
@@ -19,14 +20,16 @@ ECHO -LOG: %date% %time% in folder %cd% via %username%
 ::init things
 %md_del_file0%
 @echo:
-::Ověření, zda běží process
+::Verification if running Ngrok
 ECHO Running Ngrok ? (I didn't see anything. Start NGROK!)
 %cmd_pid%
 @echo:
-::Ziskavam data z Ngrok API
+::Getting information from Ngrok API
 ECHO I'm getting data via Ngrok API.
 %cmd_curl%
 @echo:
-::Uložení  dat do souboru
+::Save to the folder
 %cmd_curl% > output.txt
+::Copy to apache website
+%cmd_copy%
 PAUSE
