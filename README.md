@@ -14,7 +14,8 @@ You can start with FREE PLAN (limitations 4 ports). More information you can fin
 ![hierarchy](https://user-images.githubusercontent.com/40635601/83966477-b9094f80-a8ba-11ea-9192-4262c9e03fb3.png)
 3.Copy there GetIPFromAPP.bat
 ![hierarchy](https://user-images.githubusercontent.com/40635601/83966513-e1914980-a8ba-11ea-99b1-536a372e5a8a.png)
-4.And open GetIPFromAPP.bat, who make output.txt
+
+4.And open GetIPFromAPP.bat. !!! You must make generated.txt and output.txt. Vreating by cmd don't work!
 ![hierarchy](https://user-images.githubusercontent.com/40635601/83966640-99265b80-a8bb-11ea-874d-23ef5538fb9a.png)
 4.That'all now install Apache or Xampp, where people can open this file and via CTRL+F find public_ip. 
 
