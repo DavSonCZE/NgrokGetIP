@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+a {
+    text-decoration: none;
+}
+
+html {
+    width: auto;
+    height: auto;
+    background-color: #A0A0A0;
+}
+
+body {
+    margin-top: 5%;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 150;
+    line-height: 0.500;
+    color: #ffffff;
+}
+
+#footer{
+    padding-top: 10%;
+    font-weight: 150;
+    line-height: 0.500;
+    color: #ffffff;
+}
