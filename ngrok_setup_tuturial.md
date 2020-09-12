@@ -9,7 +9,7 @@
 Configuration file you can find for example: C:\Users\Username\ .ngrok2 in folder find file ngrok.yml . This is a main configuration file!
 6. Edit your configuration file by yourself. 
 
-7. If you want use my UPGRADE read readme (https://github.com/DavSonCZE/NgrokGetIP/edit/master/README.md)!
+7. If you want use my UPGRADE read readme (https://github.com/DavSonCZE/NgrokGetIP)!
 
 
 # Example config:
