@@ -5,7 +5,8 @@ Tool for NGROK users, who lazy to copy everytime new public address
 Public URLs for exposing your local web server.
 Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
 
-You can start with FREE PLAN (limitations 4 ports). More information you can find there -> https://ngrok.com/ .
+You can start with FREE PLAN (limitations 4 ports). More information you can find there -> https://ngrok.com/ . <br>
+If you want help with installation open https://github.com/DavSonCZE/NgrokGetIP/blob/master/ngrok_setup_tuturial.md .
 
 # How It Works?
 1. Find folder, where install Ngrok. Or downlaod from https://ngrok.com/ .
