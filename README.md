@@ -18,6 +18,6 @@ If you want help with installation open https://github.com/DavSonCZE/NgrokGetIP/
 
 4.And open GetIPFromAPP.bat. !!! You must make generated.txt and output.txt. Creating files by cmd doesn't work!
 ![hierarchy](https://user-images.githubusercontent.com/40635601/83966640-99265b80-a8bb-11ea-874d-23ef5538fb9a.png)
-4.That'all now install Apache or Xampp, where people can open this file and via CTRL+F find public_ip. 
+4.That's all now install Apache or Xampp, where people can open this file and via CTRL+F find public_ip. 
 
 Every time, which start ngrok you must open too this script!
