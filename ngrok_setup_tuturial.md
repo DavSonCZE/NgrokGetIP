@@ -20,7 +20,7 @@ update_channel: stable <br>
 
 tunnels:<br>
    tunnel_name: <br>
-    proto: <your protocol (tcp/udp)> [Depend on applaication] <br>
+    proto: <your protocol (tcp/udp)> [Depends on application] <br>
     addr: <port number> <br>
     
  # Config variables
