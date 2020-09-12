@@ -2,7 +2,7 @@
 
 1. Go to the website and login there. https://ngrok.com/
 2. After login click on top to the button Download From Windows (https://dashboard.ngrok.com/get-started/setup)
-3. If you succesfully downlaod zip file. Make folder for example in C:\Program Files\Ngrok\ and there paste ngrok.exe and make shortcut on desktop for launching.
+3. If you succesfully download zip file. Make folder for example in C:\Program Files\Ngrok\ and there paste ngrok.exe and make shortcut on desktop for launching.
 4. In dasbord you can find your authtoken. Run ngrok and paste this command: (https://dashboard.ngrok.com/get-started/setup) <br>
  Example authtoken: ./ngrok authtoken 1UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX3Gm
 5. Now close ngrok process and setup your config file for more port etc. <br>
