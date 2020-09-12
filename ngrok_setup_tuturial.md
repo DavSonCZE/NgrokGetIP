@@ -19,13 +19,31 @@ update: true<br>
 update_channel: stable <br>
 
 tunnels:<br>
- apache:  //apache example <br>
+   tunnel_name: <br>
+    proto: <your protocol (tcp/udp)> [Depend on applaication] <br>
+    addr: <port number> <br>
+    
+ # Config variables
+ 
+   http_apache: <br>
     bind_tls: true <br>
     proto: http <br>
     addr: 80 <br>
-  example_minecraft: <br>
+    
+   tcp_minecraft: <br>
     proto: tcp <br>
-    addr: 25565<br>
-   universal: <br>
-    proto: tcp / udp <br>
-    addr: port number <br>
+    addr: 25565 <br>
+    
+   tcp_minecraft: <br>
+    proto: tcp <br>
+    addr: 21025 <br>
+    
+   tcp_terraia: <br>
+    proto: tcp <br>
+    addr: 7777 <br>
+   
+   tcp_csgo: <br>
+    proto: tcp <br>
+    addr: 27015 <br>
+ 
+ 
