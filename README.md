@@ -1,5 +1,5 @@
 # Ngrok Get IP tool
-Tool for NGROK users, who lazy to copy everytime new public address
+Tool for NGROK users, who are lazy to copy everytime new public address
 
 # About Ngrok
 Public URLs for exposing your local web server.
